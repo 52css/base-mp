@@ -3,8 +3,16 @@
   "miniprogramRoot": "miniprogram/",
   "compileType": "miniprogram",
   "setting": {
+    "packNpmManually": true,
+    "packNpmRelationList": [
+      {
+        "packageJsonPath": "./package.json",
+        "miniprogramNpmDistDir": "./miniprogram/"
+      }
+    ],
     "useCompilerPlugins": [
-      "typescript"
+      "typescript",
+      "sass"
     ],
     "babelSetting": {
       "ignore": [],
@@ -13,13 +21,14 @@
     },
     "coverView": false,
     "postcss": false,
-    "minified": false,
-    "enhance": false,
+    "minified": true,
+    "enhance": true,
     "showShadowRootInWxmlPanel": false,
-    "packNpmRelationList": [],
     "ignoreUploadUnusedFiles": true,
-    "compileHotReLoad": false,
-    "skylineRenderEnable": true
+    "compileHotReLoad": true,
+    "skylineRenderEnable": false,
+    "condition": true,
+    "es6": true
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
@@ -29,7 +38,7 @@
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "libVersion": "trial",
+  "libVersion": "2.32.3",
   "packOptions": {
     "ignore": [],
     "include": []

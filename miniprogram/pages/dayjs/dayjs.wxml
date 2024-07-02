@@ -1,0 +1,28 @@
+<navigation-bar title="安装dayjs" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<!--pages/dayjs/dayjs.wxml-->
+<view>1. 在命令行行运行设置</view>
+<text class="code">
+  pnpm add dayjs
+</text>
+
+
+<view>2. 在`project.config.json`中`settings`</view>
+
+<text class="code">
+  packNpmManually: true,
+  "packNpmRelationList": [
+    {
+      "packageJsonPath": "./package.json",
+      "miniprogramNpmDistDir": "./miniprogram/"
+    }
+  ],
+</text>
+
+<view>3. 开发者工具</view>
+
+<text class="code">
+  工具 - 构建npm
+</text>
+
+<view>Demo</view>
+{{ day }}

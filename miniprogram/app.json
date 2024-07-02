@@ -2,14 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/alias/alias"
+    "pages/alias/alias",
+    "pages/dayjs/dayjs"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
-  "style": "v2",
-  "renderer": "skyline",
   "rendererOptions": {
     "skyline": {
       "defaultDisplayBlock": true,
