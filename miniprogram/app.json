@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/alias/alias",
     "pages/dayjs/dayjs",
-    "pages/unocss/unocss"
+    "pages/unocss/unocss",
+    "pages/vue/vue"
   ],
   "window": {
     "navigationBarTextStyle": "black",

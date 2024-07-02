@@ -1,0 +1,10 @@
+<navigation-bar title="Vue" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<view>Demo </view>
+<view bind:tap="onClick">
+  <view>count: {{count}}</view>
+  <view>doubleCount: {{getDoubleCount}}</view>
+</view>
+
+<view bind:tap="onClick2">
+  用户姓名: {{ user.name }}
+</view>

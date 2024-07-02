@@ -9,6 +9,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/vue/vue",
+          "pathName": "pages/vue/vue",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/unocss/unocss",
           "pathName": "pages/unocss/unocss",
           "query": "",
