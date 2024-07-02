@@ -5,7 +5,7 @@
 ### Page 页面
 
 ```ts
-import { Page } from '@52css/weapp-vue3'
+import { Page } from '@/utils/vue'
 
 Page(() => {
   // 里面使用hooks方法
@@ -15,7 +15,7 @@ Page(() => {
 ### Component 组件
 
 ```ts
-import { Component } from '@52css/weapp-vue3'
+import { Component } from '@/utils/vue'
 
 // 方式一，直接是hooks方法
 Component(() => {
@@ -38,7 +38,7 @@ Component({
 ts
 
 ```ts
-import { Page } from '@52css/weapp-vue3'
+import { Page } from '@/utils/vue'
 
 Page(() => {
   const text = 'hello weapp vue3'
@@ -66,7 +66,7 @@ wxml
 ts
 
 ```ts
-import { Page, ref } from '@52css/weapp-vue3'
+import { Page, ref } from '@/utils/vue'
 
 Page(() => {
   const count = ref(0)
@@ -94,7 +94,7 @@ wxml
 ts
 
 ```ts
-import { Page, reactive, toRefs } from '@52css/weapp-vue3'
+import { Page, reactive, toRefs } from '@/utils/vue'
 
 Page(() => {
   const state = reactive({loading: false})
@@ -122,7 +122,7 @@ wxml
 ts
 
 ```ts
-import { Page, ref, computed } from '@52css/weapp-vue3'
+import { Page, ref, computed } from '@/utils/vue'
 
 Page(() => {
   const count = ref(0)
@@ -152,7 +152,7 @@ wxml
 ts
 
 ```ts
-import { Page, ref, watch } from '@52css/weapp-vue3'
+import { Page, ref, watch } from '@/utils/vue'
 
 Page(() => {
   const count = ref(0)
