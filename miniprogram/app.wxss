@@ -8,3 +8,8 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.code {
+  background-color: #eee;
+  white-space: pre-wrap;
+  border-left: 10rpx solid #aaa;
+}

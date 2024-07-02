@@ -1,0 +1,16 @@
+<navigation-bar title="别名" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+<view>1. 在 `app.json` 中设置</view>
+<text class="code">
+  "resolveAlias": {
+    "@/*": "/*"
+  },
+</text>
+
+<view>2. 如果是ts环境设置 `tsconfig.json` 下 `compilerOptions` </view>
+
+<text class="code">
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["./miniprogram/*"]
+  },
+</text>

@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/alias/alias"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -19,5 +20,8 @@
   },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "lazyCodeLoading": "requiredComponents",
+  "resolveAlias": {
+    "@/*": "/*"
+  }
 }
