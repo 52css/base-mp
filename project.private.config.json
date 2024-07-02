@@ -9,6 +9,13 @@
     "miniprogram": {
       "list": [
         {
+          "name": "pages/unocss/unocss",
+          "pathName": "pages/unocss/unocss",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
           "name": "pages/dayjs/dayjs",
           "pathName": "pages/dayjs/dayjs",
           "query": "",

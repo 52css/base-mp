@@ -1,0 +1,9 @@
+<navigation-bar title="Unocss" back="{{true}}" color="black" background="#FFF"></navigation-bar>
+
+<!--pages/uncss/unocss.wxml-->
+
+<view class="flex gap-2">
+  <view>123</view>
+  <view>456</view>
+  <view>789</view>
+</view>
